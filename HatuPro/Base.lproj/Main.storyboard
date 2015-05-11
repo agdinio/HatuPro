@@ -205,7 +205,7 @@
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="SHt-dr-Dbg" id="HuZ-4b-Bbo">
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="presentation_icon.png" translatesAutoresizingMaskIntoConstraints="NO" id="Smv-Ap-ixY">
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="presentation_icon.png" translatesAutoresizingMaskIntoConstraints="NO" id="Smv-Ap-ixY">
                                                     <rect key="frame" x="18" y="8" width="80" height="80"/>
                                                     <constraints>
                                                         <constraint firstAttribute="height" constant="80" id="WJn-CB-c0E"/>
@@ -228,6 +228,11 @@
                                                 <constraint firstItem="Ocd-Ib-rP8" firstAttribute="top" secondItem="HuZ-4b-Bbo" secondAttribute="topMargin" id="vem-LM-gcI"/>
                                                 <constraint firstItem="Smv-Ap-ixY" firstAttribute="leading" secondItem="HuZ-4b-Bbo" secondAttribute="leadingMargin" constant="10" id="zIN-f3-BXY"/>
                                             </constraints>
+                                            <variation key="default">
+                                                <mask key="constraints">
+                                                    <exclude reference="7Me-5d-Xqn"/>
+                                                </mask>
+                                            </variation>
                                         </tableViewCellContentView>
                                         <connections>
                                             <segue destination="d7F-Qb-ofg" kind="show" identifier="presentationId" id="hg7-wz-1rS"/>
@@ -238,23 +243,22 @@
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="j5C-q9-Ni8" id="sTD-s7-kcG">
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Record and upload video clips directly to an existing property site." lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tXl-pB-dJD">
-                                                    <rect key="frame" x="106" y="0.0" width="481" height="87"/>
-                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                                    <nil key="highlightedColor"/>
-                                                </label>
-                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="listing_icon.png" translatesAutoresizingMaskIntoConstraints="NO" id="X5I-Bw-d3V">
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="listing_icon.png" translatesAutoresizingMaskIntoConstraints="NO" id="X5I-Bw-d3V">
                                                     <rect key="frame" x="18" y="8" width="80" height="80"/>
                                                     <constraints>
                                                         <constraint firstAttribute="height" constant="80" id="8a7-Wy-uoJ"/>
                                                         <constraint firstAttribute="width" constant="80" id="FQD-UZ-uf4"/>
                                                     </constraints>
                                                 </imageView>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Record and upload video clips directly to an existing property site." lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tXl-pB-dJD">
+                                                    <rect key="frame" x="106" y="0.0" width="481" height="87"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
                                             </subviews>
                                             <constraints>
                                                 <constraint firstAttribute="trailingMargin" secondItem="tXl-pB-dJD" secondAttribute="trailing" id="1Dz-NB-ZRc"/>
-                                                <constraint firstItem="X5I-Bw-d3V" firstAttribute="top" secondItem="sTD-s7-kcG" secondAttribute="topMargin" id="BQn-77-nhG"/>
                                                 <constraint firstItem="tXl-pB-dJD" firstAttribute="bottom" secondItem="sTD-s7-kcG" secondAttribute="bottomMargin" id="Nvj-4G-JPl"/>
                                                 <constraint firstAttribute="bottomMargin" secondItem="X5I-Bw-d3V" secondAttribute="bottom" id="dus-bz-JMW"/>
                                                 <constraint firstItem="tXl-pB-dJD" firstAttribute="leading" secondItem="X5I-Bw-d3V" secondAttribute="trailing" constant="10" id="igw-pA-ysr"/>
@@ -271,7 +275,7 @@
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="wgC-4Y-bqm" id="f7k-rf-jKS">
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="agent_icon.png" translatesAutoresizingMaskIntoConstraints="NO" id="rtk-Qs-poW">
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="agent_icon.png" translatesAutoresizingMaskIntoConstraints="NO" id="rtk-Qs-poW">
                                                     <rect key="frame" x="18" y="8" width="80" height="80"/>
                                                     <constraints>
                                                         <constraint firstAttribute="width" constant="80" id="Jr0-pi-vO7"/>
@@ -292,7 +296,6 @@
                                                 <constraint firstItem="rtk-Qs-poW" firstAttribute="leading" secondItem="f7k-rf-jKS" secondAttribute="leadingMargin" constant="10" id="dcp-3g-2NM"/>
                                                 <constraint firstItem="639-a1-FaW" firstAttribute="leading" secondItem="rtk-Qs-poW" secondAttribute="trailing" constant="10" id="hBF-3s-rGD"/>
                                                 <constraint firstAttribute="trailingMargin" secondItem="639-a1-FaW" secondAttribute="trailing" id="m7c-ce-lbX"/>
-                                                <constraint firstItem="rtk-Qs-poW" firstAttribute="top" secondItem="f7k-rf-jKS" secondAttribute="topMargin" id="rjx-av-BaM"/>
                                             </constraints>
                                         </tableViewCellContentView>
                                         <connections>
@@ -304,7 +307,7 @@
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="8JB-fG-ftG" id="HRL-iq-n6T">
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="settings_icon.png" translatesAutoresizingMaskIntoConstraints="NO" id="XQC-pA-Mok">
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="settings_icon.png" translatesAutoresizingMaskIntoConstraints="NO" id="XQC-pA-Mok">
                                                     <rect key="frame" x="18" y="8" width="80" height="80"/>
                                                     <constraints>
                                                         <constraint firstAttribute="width" constant="80" id="cZ1-Kv-CsN"/>
@@ -323,7 +326,6 @@
                                                 <constraint firstItem="XQC-pA-Mok" firstAttribute="leading" secondItem="HRL-iq-n6T" secondAttribute="leadingMargin" constant="10" id="Jkb-zv-nA8"/>
                                                 <constraint firstItem="i7z-gG-l7p" firstAttribute="top" secondItem="HRL-iq-n6T" secondAttribute="topMargin" id="ei6-EC-iJZ"/>
                                                 <constraint firstAttribute="bottomMargin" secondItem="XQC-pA-Mok" secondAttribute="bottom" id="f27-1a-oZc"/>
-                                                <constraint firstItem="XQC-pA-Mok" firstAttribute="top" secondItem="HRL-iq-n6T" secondAttribute="topMargin" id="fD7-Mh-Evx"/>
                                                 <constraint firstItem="i7z-gG-l7p" firstAttribute="bottom" secondItem="HRL-iq-n6T" secondAttribute="bottomMargin" id="g1F-af-dl7"/>
                                                 <constraint firstAttribute="trailingMargin" secondItem="i7z-gG-l7p" secondAttribute="trailing" id="kwb-xh-5LO"/>
                                             </constraints>
