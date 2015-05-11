@@ -17,9 +17,6 @@
 		B906AC841AFD0F7C00CC2B52 /* splash_logo@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B906AC831AFD0F7C00CC2B52 /* splash_logo@2x.png */; };
 		B906AC861AFD0F8300CC2B52 /* splash_logo@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = B906AC851AFD0F8300CC2B52 /* splash_logo@3x.png */; };
 		B906AC8A1AFD155700CC2B52 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B906AC891AFD155700CC2B52 /* LoginViewController.swift */; };
-		B906AC8C1AFD273B00CC2B52 /* logo_lt.png in Resources */ = {isa = PBXBuildFile; fileRef = B906AC8B1AFD273B00CC2B52 /* logo_lt.png */; };
-		B906AC8E1AFD274200CC2B52 /* logo_lt@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B906AC8D1AFD274200CC2B52 /* logo_lt@2x.png */; };
-		B906AC901AFD274A00CC2B52 /* logo_lt@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = B906AC8F1AFD274A00CC2B52 /* logo_lt@3x.png */; };
 		B906AC921AFD4BA700CC2B52 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B906AC911AFD4BA700CC2B52 /* MainViewController.swift */; };
 		B906AC981AFD721500CC2B52 /* presentation_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = B906AC951AFD721500CC2B52 /* presentation_icon.png */; };
 		B906AC991AFD721500CC2B52 /* presentation_icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B906AC961AFD721500CC2B52 /* presentation_icon@2x.png */; };
@@ -34,9 +31,15 @@
 		B9A0BDD31B010D3100F00416 /* settings_icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B9A0BDCF1B010D3100F00416 /* settings_icon@2x.png */; };
 		B9A0BDD41B010D3100F00416 /* settings_icon@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = B9A0BDD01B010D3100F00416 /* settings_icon@3x.png */; };
 		B9A0BDD51B010D3100F00416 /* settings_icon@4x.png in Resources */ = {isa = PBXBuildFile; fileRef = B9A0BDD11B010D3100F00416 /* settings_icon@4x.png */; };
-		B9A0BDD91B01400800F00416 /* PresentationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9A0BDD81B01400800F00416 /* PresentationViewController.swift */; };
-		B9A0BDDB1B01421000F00416 /* ListingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9A0BDDA1B01421000F00416 /* ListingViewController.swift */; };
 		B9A0BDDD1B014A3700F00416 /* AgentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9A0BDDC1B014A3700F00416 /* AgentViewController.swift */; };
+		B9A0BDDF1B0152B000F00416 /* PresentationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9A0BDDE1B0152B000F00416 /* PresentationViewController.swift */; };
+		B9A0BDE11B0152C300F00416 /* ListingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9A0BDE01B0152C300F00416 /* ListingViewController.swift */; };
+		B9A0BDE31B01593C00F00416 /* logo_lt.png in Resources */ = {isa = PBXBuildFile; fileRef = B9A0BDE21B01593C00F00416 /* logo_lt.png */; };
+		B9A0BDE61B015AA500F00416 /* logo_lt@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B9A0BDE41B015AA500F00416 /* logo_lt@2x.png */; };
+		B9A0BDE71B015AA500F00416 /* logo_lt@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = B9A0BDE51B015AA500F00416 /* logo_lt@3x.png */; };
+		B9A0BDEB1B015C4700F00416 /* plus_present.png in Resources */ = {isa = PBXBuildFile; fileRef = B9A0BDE81B015C4700F00416 /* plus_present.png */; };
+		B9A0BDEC1B015C4700F00416 /* plus_present@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B9A0BDE91B015C4700F00416 /* plus_present@2x.png */; };
+		B9A0BDED1B015C4700F00416 /* plus_present@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = B9A0BDEA1B015C4700F00416 /* plus_present@3x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -64,9 +67,6 @@
 		B906AC831AFD0F7C00CC2B52 /* splash_logo@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "splash_logo@2x.png"; sourceTree = "<group>"; };
 		B906AC851AFD0F8300CC2B52 /* splash_logo@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "splash_logo@3x.png"; sourceTree = "<group>"; };
 		B906AC891AFD155700CC2B52 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
-		B906AC8B1AFD273B00CC2B52 /* logo_lt.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo_lt.png; sourceTree = "<group>"; };
-		B906AC8D1AFD274200CC2B52 /* logo_lt@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "logo_lt@2x.png"; sourceTree = "<group>"; };
-		B906AC8F1AFD274A00CC2B52 /* logo_lt@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "logo_lt@3x.png"; sourceTree = "<group>"; };
 		B906AC911AFD4BA700CC2B52 /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		B906AC951AFD721500CC2B52 /* presentation_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = presentation_icon.png; sourceTree = "<group>"; };
 		B906AC961AFD721500CC2B52 /* presentation_icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "presentation_icon@2x.png"; sourceTree = "<group>"; };
@@ -81,9 +81,15 @@
 		B9A0BDCF1B010D3100F00416 /* settings_icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "settings_icon@2x.png"; sourceTree = "<group>"; };
 		B9A0BDD01B010D3100F00416 /* settings_icon@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "settings_icon@3x.png"; sourceTree = "<group>"; };
 		B9A0BDD11B010D3100F00416 /* settings_icon@4x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "settings_icon@4x.png"; sourceTree = "<group>"; };
-		B9A0BDD81B01400800F00416 /* PresentationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PresentationViewController.swift; sourceTree = "<group>"; };
-		B9A0BDDA1B01421000F00416 /* ListingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListingViewController.swift; sourceTree = "<group>"; };
 		B9A0BDDC1B014A3700F00416 /* AgentViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AgentViewController.swift; sourceTree = "<group>"; };
+		B9A0BDDE1B0152B000F00416 /* PresentationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PresentationViewController.swift; sourceTree = "<group>"; };
+		B9A0BDE01B0152C300F00416 /* ListingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListingViewController.swift; sourceTree = "<group>"; };
+		B9A0BDE21B01593C00F00416 /* logo_lt.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo_lt.png; sourceTree = "<group>"; };
+		B9A0BDE41B015AA500F00416 /* logo_lt@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "logo_lt@2x.png"; sourceTree = "<group>"; };
+		B9A0BDE51B015AA500F00416 /* logo_lt@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "logo_lt@3x.png"; sourceTree = "<group>"; };
+		B9A0BDE81B015C4700F00416 /* plus_present.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = plus_present.png; sourceTree = "<group>"; };
+		B9A0BDE91B015C4700F00416 /* plus_present@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "plus_present@2x.png"; sourceTree = "<group>"; };
+		B9A0BDEA1B015C4700F00416 /* plus_present@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "plus_present@3x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -134,9 +140,9 @@
 				B906AC5A1AFD0DC100CC2B52 /* Supporting Files */,
 				B906AC891AFD155700CC2B52 /* LoginViewController.swift */,
 				B906AC911AFD4BA700CC2B52 /* MainViewController.swift */,
-				B9A0BDD81B01400800F00416 /* PresentationViewController.swift */,
-				B9A0BDDA1B01421000F00416 /* ListingViewController.swift */,
 				B9A0BDDC1B014A3700F00416 /* AgentViewController.swift */,
+				B9A0BDDE1B0152B000F00416 /* PresentationViewController.swift */,
+				B9A0BDE01B0152C300F00416 /* ListingViewController.swift */,
 			);
 			path = HatuPro;
 			sourceTree = "<group>";
@@ -169,6 +175,12 @@
 		B906AC801AFD0F6700CC2B52 /* Graphics */ = {
 			isa = PBXGroup;
 			children = (
+				B9A0BDE81B015C4700F00416 /* plus_present.png */,
+				B9A0BDE91B015C4700F00416 /* plus_present@2x.png */,
+				B9A0BDEA1B015C4700F00416 /* plus_present@3x.png */,
+				B9A0BDE41B015AA500F00416 /* logo_lt@2x.png */,
+				B9A0BDE51B015AA500F00416 /* logo_lt@3x.png */,
+				B9A0BDE21B01593C00F00416 /* logo_lt.png */,
 				B9A0BDCE1B010D3100F00416 /* settings_icon.png */,
 				B9A0BDCF1B010D3100F00416 /* settings_icon@2x.png */,
 				B9A0BDD01B010D3100F00416 /* settings_icon@3x.png */,
@@ -182,9 +194,6 @@
 				B906AC951AFD721500CC2B52 /* presentation_icon.png */,
 				B906AC961AFD721500CC2B52 /* presentation_icon@2x.png */,
 				B906AC971AFD721500CC2B52 /* presentation_icon@3x.png */,
-				B906AC8F1AFD274A00CC2B52 /* logo_lt@3x.png */,
-				B906AC8D1AFD274200CC2B52 /* logo_lt@2x.png */,
-				B906AC8B1AFD273B00CC2B52 /* logo_lt.png */,
 				B906AC851AFD0F8300CC2B52 /* splash_logo@3x.png */,
 				B906AC831AFD0F7C00CC2B52 /* splash_logo@2x.png */,
 				B906AC811AFD0F7500CC2B52 /* splash_logo.png */,
@@ -273,16 +282,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				B9A0BDD21B010D3100F00416 /* settings_icon.png in Resources */,
-				B906AC8C1AFD273B00CC2B52 /* logo_lt.png in Resources */,
+				B9A0BDED1B015C4700F00416 /* plus_present@3x.png in Resources */,
 				B9A0BDD51B010D3100F00416 /* settings_icon@4x.png in Resources */,
 				B9A0BDC51B0109EA00F00416 /* listing_icon.png in Resources */,
 				B9A0BDCD1B010A1900F00416 /* agent_icon@3x.png in Resources */,
+				B9A0BDE61B015AA500F00416 /* logo_lt@2x.png in Resources */,
 				B906AC651AFD0DC100CC2B52 /* Main.storyboard in Resources */,
 				B906AC991AFD721500CC2B52 /* presentation_icon@2x.png in Resources */,
 				B906AC821AFD0F7500CC2B52 /* splash_logo.png in Resources */,
-				B906AC8E1AFD274200CC2B52 /* logo_lt@2x.png in Resources */,
 				B906AC6A1AFD0DC100CC2B52 /* LaunchScreen.xib in Resources */,
-				B906AC901AFD274A00CC2B52 /* logo_lt@3x.png in Resources */,
 				B9A0BDD31B010D3100F00416 /* settings_icon@2x.png in Resources */,
 				B9A0BDCB1B010A1900F00416 /* agent_icon.png in Resources */,
 				B9A0BDD41B010D3100F00416 /* settings_icon@3x.png in Resources */,
@@ -290,9 +298,13 @@
 				B9A0BDC71B0109EA00F00416 /* listing_icon@3x.png in Resources */,
 				B906AC671AFD0DC100CC2B52 /* Images.xcassets in Resources */,
 				B906AC981AFD721500CC2B52 /* presentation_icon.png in Resources */,
+				B9A0BDE71B015AA500F00416 /* logo_lt@3x.png in Resources */,
 				B906AC9A1AFD721500CC2B52 /* presentation_icon@3x.png in Resources */,
 				B9A0BDCC1B010A1900F00416 /* agent_icon@2x.png in Resources */,
+				B9A0BDEB1B015C4700F00416 /* plus_present.png in Resources */,
+				B9A0BDEC1B015C4700F00416 /* plus_present@2x.png in Resources */,
 				B9A0BDC61B0109EA00F00416 /* listing_icon@2x.png in Resources */,
+				B9A0BDE31B01593C00F00416 /* logo_lt.png in Resources */,
 				B906AC861AFD0F8300CC2B52 /* splash_logo@3x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -311,12 +323,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B9A0BDD91B01400800F00416 /* PresentationViewController.swift in Sources */,
 				B906AC8A1AFD155700CC2B52 /* LoginViewController.swift in Sources */,
 				B9A0BDDD1B014A3700F00416 /* AgentViewController.swift in Sources */,
 				B906AC5D1AFD0DC100CC2B52 /* AppDelegate.swift in Sources */,
-				B9A0BDDB1B01421000F00416 /* ListingViewController.swift in Sources */,
 				B906AC601AFD0DC100CC2B52 /* HatuPro.xcdatamodeld in Sources */,
+				B9A0BDE11B0152C300F00416 /* ListingViewController.swift in Sources */,
+				B9A0BDDF1B0152B000F00416 /* PresentationViewController.swift in Sources */,
 				B906AC921AFD4BA700CC2B52 /* MainViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

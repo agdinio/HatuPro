@@ -97,9 +97,9 @@ class MainViewController: UITableViewController, UITableViewDataSource, UITableV
     override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
         // Get the new view controller using [segue destinationViewController].
         // Pass the selected object to the new view controller.
-        if (segue.identifier == "presentationId") {
+        if (segue.identifier == "presentationSegue") {
             let presentationViewController = segue.destinationViewController as! PresentationViewController
-            presentationViewController.stringval = "FROM SEGUE PRESENTATION!"
+
         }
     
     }

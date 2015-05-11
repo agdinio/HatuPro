@@ -10,31 +10,31 @@
 	<string>HatuPro</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
-		<key>3E6BF4FF4FEEA2A9AE5BE75571CA8CED6953FB2C</key>
-		<string>git.circlepix.local:/data/apps</string>
+		<key>E405B04C1A7490E00416DF28595B37B1A40DEBF8</key>
+		<string>github.com:agdinio/HatuPro.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>ios/HatuPro/HatuPro.xcodeproj</string>
+	<string>HatuPro.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
-		<key>3E6BF4FF4FEEA2A9AE5BE75571CA8CED6953FB2C</key>
-		<string>../../../..</string>
+		<key>E405B04C1A7490E00416DF28595B37B1A40DEBF8</key>
+		<string>../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
-	<string>git.circlepix.local:/data/apps</string>
+	<string>github.com:agdinio/HatuPro.git</string>
 	<key>IDESourceControlProjectVersion</key>
 	<integer>111</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>3E6BF4FF4FEEA2A9AE5BE75571CA8CED6953FB2C</string>
+	<string>E405B04C1A7490E00416DF28595B37B1A40DEBF8</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
 			<key>IDESourceControlWCCIdentifierKey</key>
-			<string>3E6BF4FF4FEEA2A9AE5BE75571CA8CED6953FB2C</string>
+			<string>E405B04C1A7490E00416DF28595B37B1A40DEBF8</string>
 			<key>IDESourceControlWCCName</key>
-			<string>apps</string>
+			<string>HatuPro</string>
 		</dict>
 	</array>
 </dict>

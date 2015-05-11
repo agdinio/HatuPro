@@ -235,7 +235,7 @@
                                             </variation>
                                         </tableViewCellContentView>
                                         <connections>
-                                            <segue destination="d7F-Qb-ofg" kind="show" identifier="presentationId" id="hg7-wz-1rS"/>
+                                            <segue destination="mn1-QJ-bKc" kind="show" identifier="presentationSegue" id="58d-nG-shv"/>
                                         </connections>
                                     </tableViewCell>
                                     <tableViewCell contentMode="scaleToFill" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" rowHeight="96" id="j5C-q9-Ni8">
@@ -267,7 +267,7 @@
                                             </constraints>
                                         </tableViewCellContentView>
                                         <connections>
-                                            <segue destination="YXc-Sb-gp3" kind="show" identifier="listingId" id="P79-Ch-aXo"/>
+                                            <segue destination="lx0-Dy-4Xo" kind="show" identifier="listingSegue" id="QFh-gk-uZq"/>
                                         </connections>
                                     </tableViewCell>
                                     <tableViewCell contentMode="scaleToFill" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" rowHeight="96" id="wgC-4Y-bqm">
@@ -299,7 +299,7 @@
                                             </constraints>
                                         </tableViewCellContentView>
                                         <connections>
-                                            <segue destination="cy8-1b-IeO" kind="show" identifier="agentId" id="M6h-05-gjg"/>
+                                            <segue destination="cy8-1b-IeO" kind="show" identifier="agentSegue" id="M6h-05-gjg"/>
                                         </connections>
                                     </tableViewCell>
                                     <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="96" id="8JB-fG-ftG">
@@ -340,12 +340,70 @@
                         </connections>
                     </tableView>
                     <navigationItem key="navigationItem" id="ZQq-Qa-SAW">
+                        <barButtonItem key="backBarButtonItem" title="Home" id="Fqj-s5-06c"/>
                         <barButtonItem key="rightBarButtonItem" title="Logout" id="smq-5G-1Pd"/>
                     </navigationItem>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="2KS-nn-tmo" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1331" y="-285"/>
+        </scene>
+        <!--Presentation View Controller-->
+        <scene sceneID="G2g-QY-odk">
+            <objects>
+                <tableViewController id="mn1-QJ-bKc" customClass="PresentationViewController" customModule="HatuPro" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="oz7-0Q-ldw">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <prototypes>
+                            <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="sqL-Ck-lf2">
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="sqL-Ck-lf2" id="v9z-Mn-IiN">
+                                    <autoresizingMask key="autoresizingMask"/>
+                                </tableViewCellContentView>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="mn1-QJ-bKc" id="TyK-9Q-X9W"/>
+                            <outlet property="delegate" destination="mn1-QJ-bKc" id="nhs-Pl-oLn"/>
+                        </connections>
+                    </tableView>
+                    <toolbarItems/>
+                    <navigationItem key="navigationItem" id="GL4-1T-N9g">
+                        <barButtonItem key="rightBarButtonItem" image="plus_present.png" id="9eK-h7-Yaz"/>
+                    </navigationItem>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ywq-nR-jix" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1062" y="505"/>
+        </scene>
+        <!--Listing View Controller-->
+        <scene sceneID="98k-m5-EY8">
+            <objects>
+                <tableViewController id="lx0-Dy-4Xo" customClass="ListingViewController" customModule="HatuPro" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="1PD-Uj-ZhX">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <prototypes>
+                            <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="QmT-T0-mtR">
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="QmT-T0-mtR" id="aXw-nY-qZK">
+                                    <autoresizingMask key="autoresizingMask"/>
+                                </tableViewCellContentView>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="lx0-Dy-4Xo" id="9CD-rE-s23"/>
+                            <outlet property="delegate" destination="lx0-Dy-4Xo" id="1YQ-d6-dM8"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" id="GsQ-L9-FVm"/>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="bRh-6z-bwk" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1783" y="505"/>
         </scene>
         <!--Agent View Controller-->
         <scene sceneID="p5A-Vj-JRa">
@@ -399,73 +457,12 @@
             </objects>
             <point key="canvasLocation" x="561" y="-285"/>
         </scene>
-        <!--Presentation View Controller-->
-        <scene sceneID="6fQ-hp-FLv">
-            <objects>
-                <viewController id="d7F-Qb-ofg" customClass="PresentationViewController" customModule="HatuPro" customModuleProvider="target" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="uGt-RC-FvM"/>
-                        <viewControllerLayoutGuide type="bottom" id="9Or-Wb-pXu"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="J1J-GS-As1">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="PRESENTATION" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Aee-QV-cbG">
-                                <rect key="frame" x="16" y="257" width="568" height="21"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                        </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                    </view>
-                    <navigationItem key="navigationItem" id="pbS-Yf-kj2">
-                        <barButtonItem key="rightBarButtonItem" systemItem="refresh" id="rPn-gF-kwW"/>
-                    </navigationItem>
-                    <connections>
-                        <outlet property="presentationLabel" destination="Aee-QV-cbG" id="yEk-Fk-aih"/>
-                    </connections>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="gRJ-NP-ozY" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="983" y="497"/>
-        </scene>
-        <!--Listing View Controller-->
-        <scene sceneID="pqX-dz-G38">
-            <objects>
-                <viewController id="YXc-Sb-gp3" customClass="ListingViewController" customModule="HatuPro" customModuleProvider="target" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="ucU-Ap-RM7"/>
-                        <viewControllerLayoutGuide type="bottom" id="09d-nF-iRb"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="LgW-jZ-oYU">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="RECORD AND UPLOAD" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="F3U-gG-Xcx">
-                                <rect key="frame" x="130" y="282" width="186" height="21"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                        </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                    </view>
-                    <toolbarItems/>
-                    <navigationItem key="navigationItem" id="RJI-xS-ET8">
-                        <barButtonItem key="rightBarButtonItem" systemItem="bookmarks" id="xRi-OE-iUD"/>
-                    </navigationItem>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="jlA-Cu-Nau" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="1696" y="497"/>
-        </scene>
     </scenes>
     <resources>
         <image name="agent_icon.png" width="80" height="80"/>
         <image name="listing_icon.png" width="80" height="80"/>
         <image name="logo_lt.png" width="66" height="22"/>
+        <image name="plus_present.png" width="28" height="22"/>
         <image name="presentation_icon.png" width="80" height="80"/>
         <image name="settings_icon.png" width="80" height="80"/>
     </resources>
